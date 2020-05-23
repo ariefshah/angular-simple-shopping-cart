@@ -52,7 +52,7 @@ function createProducts(count: number): Product[] {
     product.name = `name ${i}`;
     product.description = `description ${i}`;
     product.price = i;
-    product.ingredients = new Array<Ingredient>();
+    product.author = `author ${i}`;
     products.push(product);
   }
 

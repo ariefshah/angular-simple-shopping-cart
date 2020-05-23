@@ -1,6 +1,6 @@
 <div class="row">
   <div class="small-12 medium-8 columns">
-    <h3>Pick your favourite juices...</h3>
+    <h3>Pick your favourite book on Kashmir...</h3>
     <ul class="product-list">
       <li *ngFor="let product of products | async"
           class="product-container">
@@ -12,16 +12,14 @@
             <div class="medium-9 columns">
               <h4>
                 <span class="text--bold js-product-name">{{product.name}}</span>
-                <small class="product_price js-product-price">{{product.price | currency:'GBP':true}}</small>
+                <small class="product_price js-product-price">{{product.price | currency:'AUD':true}}</small>
               </h4>
               <p class="js-product-desc">{{product.description}}</p>
               <p>
-                <span class="text--bold">ingredients:</span>
-                <br/>
-                <span *ngFor="let ingredient of product.ingredients ">
-                  {{ingredient.name}} ({{ingredient.percentage}}%)
+                <span class="text--bold">Author:</span>
+                                                {{product.author}}
                   <br/>
-                </span>
+
               </p>
               <p>
                 <button type="button"
