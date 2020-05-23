@@ -61,8 +61,7 @@ export class CheckoutComponent implements AfterViewChecked  , OnInit , OnDestroy
 
   public constructor(private productsService: ProductsDataService,
     private deliveryOptionService: DeliveryOptionsDataService,
-    private shoppingCartService: ShoppingCartService,
-     private httpClient: HttpClient) {}
+    private shoppingCartService: ShoppingCartService) {}
 
   public emptyCart(): void {
     this.shoppingCartService.empty();
