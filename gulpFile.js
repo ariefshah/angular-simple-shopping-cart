@@ -10,7 +10,7 @@ gulp.task('js:minify', function () {
 
 gulp.task("html:basehref", function () {
   return gulp.src('dist/*.html')
-    .pipe(replace("<base href=\"/\">", "<base href=\"/angular-simple-shopping-cart/\">"))
+    .pipe(replace("<base href=\"/\">", "<base href=\"/shopping/\">"))
     .pipe(gulp.dest('./dist'));
 });
 
