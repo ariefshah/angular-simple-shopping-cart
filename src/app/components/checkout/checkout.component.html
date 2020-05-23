@@ -14,15 +14,17 @@
   <div class="medium-4 columns text-right">
     <h5 class="text--red"
        *ngIf="(cart | async).deliveryOptionId === undefined">Please select a delivery option...</h5>
-    <a class="success button large"
+    <a class="  "
        *ngIf="(cart | async).deliveryOptionId !== undefined"
-       routerLink="/confirmed">Purchase Order</a>
+       (click)="checkout()">  </a>
+       <div id="paypal-checkout-btn"></div>
+
   </div>
   <hr/>
 </div>
 <div class="row">
   <div class="medium-8 columns">
-    <h4>Delivery 1 of 1</h4>
+
     <small>Dispatching to the Australia....</small>
     <div class="row checkout_row"
         *ngFor="let item of cartItems">

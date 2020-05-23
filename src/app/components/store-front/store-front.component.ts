@@ -6,6 +6,7 @@ import { ShoppingCartService } from "app/services/shopping-cart.service";
 import { Observable } from "rxjs/Observable";
 import { Observer } from "rxjs/Observer";
 
+
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: "app-store-front",

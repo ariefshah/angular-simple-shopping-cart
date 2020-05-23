@@ -15,6 +15,8 @@ import { ProductsDataService } from "./services/products.service";
 import { ShoppingCartService } from "./services/shopping-cart.service";
 import { LocalStorageServie, StorageService } from "./services/storage.service";
 
+
+
 @NgModule({
   bootstrap: [AppComponent],
   declarations: [
@@ -35,6 +37,7 @@ import { LocalStorageServie, StorageService } from "./services/storage.service";
     DeliveryOptionsDataService,
     PopulatedCartRouteGuard,
     LocalStorageServie,
+
     { provide: StorageService, useClass: LocalStorageServie },
     {
       deps: [StorageService, ProductsDataService, DeliveryOptionsDataService],
