@@ -1,37 +1,109 @@
 [
   {
     "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78ea4f",
-    "price": 12.50,
+    "price":15,
     "name": "Curfewed Night",
-    "description": "Book on Kashmir",
+    "description": "One Kashmiri Journalist's Frontline Account of Life, Love, and War in His Homel \n and Since 1989, when the separatist movement exploded in Kashmir, more than 70,000 people have been killed in the battle between India and Pakistan over Kashmir. Born and raised in the war-torn region, Basharat Peer brings this little-known part of the world to life in haunting, vivid detail..\nPeer reveals stories from his youth as well as gut-wrenching accounts of the many Kashmiris he met years later, as a reporter. He chronicles a young man’s initiation into a Pakistani training camp; a mother who watches as her son is forced to hold an exploding bomb; a poet who finds religion when his entire family is killed. He writes about politicians living in refurbished torture chambers, idyllic villages rigged with landmines, and ancient Sufi shrines decimated in bomb blasts..\n Curfewed Night is a tale of a man’s love for his land, the pain of leaving home, and the joy of return—as well as a fiercely brave piece of literary reporting..",
     "author":"Basharat Peer"
   },
   {
     "id": "bdcbe438-ac85-4acf-8949-5627fd5b57df",
     "price": 15,
     "name": "The Collaborator",
-    "description": "Book on Kashmir",
+    "description": "It is Kashmir in the early 1990s and war has finally reached the isolated village of Nowgam close to the Pakistan border. Indian soldiers appear as if from nowhere to hunt for militants on the run. Four teenage boys, who used to spend their afternoons playing cricket, or singing Bollywood ballads down by the river, have disappeared one by one, to cross into Pakistan and join the movement against the Indian army. Only one of their friends, the son of the headman, is left behind.\n The families in the village begin to think it's time to flee, to search for a place of greater safety. But the headman will not allow his family to leave. And, whilst the headman watches his dreams give way beneath the growing violence, his son, under the brutal, drunken gaze of the Indian army captain, is seemingly forced to collaborate and go into the valley to count the corpses, fearing, each day, that he will discover one of his friends lying amongst the dead. The Colloborator is a stunningly humane work of storytelling with a poignant and unpredictable hero at its heart. In one of the most shocking and brilliantly compelling novels of recent times Mirza Waheed lights our way into the heart of a war that is all too real.\nThe Collaborator was featured in 2011 Books of the Year in The Telegraph, New Statesman, Business Standard and Telegraph India. It was also 2011 Guardian First Book Award finalist.",
     "author":"Mirza Waheed"
   },
   {
     "id": "58552daa-30f6-46fa-a808-f1a1d7667561",
-    "price": 12.5,
+    "price": 15,
     "name": "The dirty war in Kashmir",
-    "description": "Book on Kashmir",
+    "description": "Shujaat Bukhari was one of the most vital, balanced and well-informed voices in Kashmir. Perhaps for this reason, the 50-year-old journalist was shot dead by motorcycle-borne gunmen in Srinagar on the evening of June 14, 2018, as he was leaving the office of Rising Kashmir. A voice has been silenced. But before he was killed, Shujaat Bukhari documented for Frontline magazine the damage done to Kashmir. This book collects Shujaat Bukhari’s reports from May 2017 to his assassination. He reflects here on the policies of the Indian state (including the impunity given to the army), the hate-filled politics of the Hindu Right (exemplified in the rape and murder of an eight-year-old girl in Kathua), the alienation of the Kashmiri people, the protests of young people (and their use of social media) and the rise of a new kind of militant (such as Burhan Wani). These are detailed assessments, essential reading for anyone who wants to know about the old and new forces inside Kashmir. The pieces offer insights into the ways and means to bring about lasting peace in the Valley – a cause for which Shujaat lived and died.",
     "author":"Shujaat Bukhari"
   },
   {
     "id": "d4666802-fd84-476f-9eea-c8dd29cfb633",
     "price": 15,
     "name": "Kashmir Rage and Reason",
-    "description": "Book on Kashmir",
+    "description": "",
     "author":"Gowhar Geelani"
   },
   {
     "id": "7ef3b9dd-5a95-4415-af37-6871d6ff0262",
     "price": 30,
     "name": "The desolation called Peace",
-    "description": "Book on Kashmir",
+    "description": "The accession of Kashmir to the Indian Union in 1947 had raised objections both in Kashmir and India, echoes of which continue to be heard even today. At the time, Sheikh Abdullah was the uncrowned king of Kashmir; today, his grave is under security lest it be vandalized. What accounts for this change in attitude? A Desolation Called Peace provides important insights to understand the political aspirations of the people of Kashmir and the change in their perceptions since Independence. Written and edited by Kashmiri authors, this collection of ethnographic essays explores the desire for 'azadi' as a historical and indigenous demand. While the accounts traverse the period from before 1947 to the momentous time of 1989 when militancy began, the essays illustrate how postcolonial politics has impinged on Kashmiri lives and aspirations, thus paving the way for the intractable dispute of today. This anthology of deeply felt essays will enable an understanding of Kashmir beyond the hackneyed tropes that portray the issue reductively as a proxy war, terrorism or a simple law and order situation.",
     "author":"Ather Zia and Javaid Iqbal Bhat"
+  },
+  {
+    "id": "aef3b9dd-5a95-4415-af37-6871d6ff0262",
+    "price": 15,
+    "name": "Do You remember Kunan Poshpora",
+    "description": "On a cold February night in 1991, a group of soldiers and officers of the Indian Army pushed their way into two villages in Kashmir, seeking out militants assumed to be hiding there. They pulled the men out of their homes and subjected many to torture, and the women to rape. According to village accounts, as many as 31 women were raped. Twenty-one years later, in 2012, the rape and murder of a young medical student in Delhi galvanized a protest movement so widespread and deep that it reached all corners of the world. In Kashmir, a group of young women, all in their twenties, were inspired to re-open the Kunan-Poshpora case, to revisit their history and to look at what had happened to the survivors of the 1991 mass rape. Through personal accounts of their journey, this book examines questions of justice, of stigma, of the responsibility of the state, and of the long-term impact of trauma.",
+    "author":"Varoius Authors"
+  },
+  {
+    "id": "cef3b9dd-5a95-4415-af37-6871d6ff0262",
+    "price": 15,
+    "name": "Behold, I Shine",
+    "description": "Set in the once-fabled land of Kashmir, Behold, I Shine moves beyond male voices and focuses, instead, on what the struggle means for the Valley’s women and children—those whose husbands remain untraceable; whose mothers are half-widows; those who have confronted the wrath of ‘Ikhwanis’, or the scrutiny of men in uniform, and what it means to stand up to it all. This book also brings to focus the resilience of the Valley’s women and children—of activists like Parveena Ahangar and Anjum Zamrud Habib, who, after debilitating losses, start human rights organizations; of ordinary homemakers like Munawara who have taken on the judiciary; and of a young generation of thinkers like Uzma Falak and Essar Batool who foreground the interaction of gender, politics and religion, and won’t let Kashmir forget. Stitching together their narratives, Behold, I Shine not only memorializes women’s voices—thus far forgotten, unwritten, suppressed or sidelined—but also celebrates the mighty spirit of the Valley.",
+    "author":"Freny Manecksha"
+  },
+  {
+    "id": "cef3b9dd-5a95-4415-af37-6871d6ff026a",
+    "price": 15,
+    "name": "The Half Mother",
+    "description": "‘With delicately drawn characters, Shahnaz Bashir tells the heartbreaking story of one woman’s battle for life, dignity and justice.’ – Mirza Waheed, author of The Collaborator 'The night is tired now, the old moon, hanging in the dark sky, is tired too’ It is the 1990s, and Kashmir’s long war has begun to claim its first victims. Among them are Ghulam Rasool Joo, Haleema’s father, and  her teenage son Imran, who is picked up by the authorities only to disappear into the void of Kashmir’s missing people. The Half Mother is the story of Haleema – a mother and a daughter yesterday, a ‘half mother’ and an orphan today; tormented by not knowing whether Imran is dead or alive, torn apart by her  own lonely existence. While she battles for answers and seeks out torture camps, jails and morgues for any signs of Imran, Kashmir burns in a war that will haunt it for years to come. Heart-wrenching, deeply troubling and written in lyrical prose, The Half Mother marks the debut of a bold new voice from Kashmir.' ",
+    "author":"Mirza Waheed"
+  },
+  {
+    "id": "cef3b9dd-5a12-4415-af37-6871d6ff026a",
+    "price": 15,
+    "name": "Until My freedom has come",
+    "description": "The pieces in this volume voice the rage and helplessness sweeping through the Kashmir Valley while offering rare insights into the lives of those caught in the crossfire. This book is a collection of the most exciting writing that has emerged from within Kashmir, and about it. Sanjay Kak is a documentary filmmaker whose work includes Jashn-e-Azadi (How We Celebrate Freedom, 2007), a feature-length film about Kashmir. He is based in New Delhi, India.",
+    "author":"Sanjay Kak"
+  },
+
+  {
+    "id": "cef3a9dd-5a12-4415-af37-6871d6ff026a",
+    "price": 15,
+    "name": "Kashmir - The Case for Freedom",
+    "description": "At home, the Kashmiri people’s ongoing quest for justice and self-determination is as much ignored by their venal politicians as it is rejected by Pakistan. Internationally, their struggle is forgotten, as the West refuses to bring pressure to bear on its regional ally India. Kashmir: The Case for Freedom is an impassioned attempt to redress this imbalance and to fill the gap in our moral imagination. Covering Kashmir’s past and present and the occupation’s causes and consequences, the authors issue a clarion call for the withdrawal of Indian troops and for Kashmir’s right to self-determination.",
+    "author":"Leading international voices condemn the brutalities of the Kashmir occupation"
+  },
+  {
+    "id": "cef3a9dd-5a12-4415-af37-1871d6ff026a",
+    "price": 30,
+    "name": "Kashmir: Exposing the Myth behind the Narrative",
+    "description": "The advent of Islam in medieval Kashmir gave birth to a narrative that describes forcible mass conversion of Hindus, eviction of local people and wanton demolition of religious symbols. A minority of Kashmiri Brahmans and their progeny who did not convert to Islam built and successfully perpetuated this narrative over the centuries. Following the eruption of armed insurgency in Kashmir and mass migration of Kashmiri Pandits in 1990, this community narrative has turned into the Indian mainstream view on Kashmiri Pandits. Kashmir: Exposing the Myth behind the Narrative challenges the existing narrative. It exposes many fallacies used to uphold this narrative and dissects the work of historians that has sustained ahistorical perceptions over a long period of time. By linking history to the present, the book facilitates an understanding of the situation today.",
+    "author":"Khalid Bashir Ahmad"
+  },
+  {
+    "id": "cef3a9dd-5a12-4415-af37-1871d6ff021a",
+    "price": 30,
+    "name": "Kashmir: The Unwritten History",
+    "description": "A radical new look at the largely forgotten four million people of Azad Kashmir the part of Kashmir occupied by Pakistan, and separated by a Line of Control from Indian territory. In Kashmir: The Unwritten History, politico-strategic analyst Christopher Snedden contends that in October 1947, pro- Pakistan Muslims in southwestern J&K instigated the Kashmir dispute not Pashtun tribesmen invading from Pakistan, as India has consistently claimed. Later called Azad Kashmiris, these people, Snedden argues, are legitimate stakeholders in an unresolved dispute. He provides comprehensive new information that critically examines Azad Kashmirs administration, economy, political system and its subordinate relationship with Pakistan. Azad Kashmiris considered their administration to be the only legitimate government in J&K and expected that it would rule after J&K was re-unified by a UNsupervised plebiscite. This poll has never been conducted and Azad Kashmir has effectively, if not yet legally, become a (dependent) part of Pakistan. Long disenchanted with Islamabad, some Azad Kashmiris now favour independence for J&K, hoping that they may survive and prosper without recourse to either of their bigger neighbours. Snedden concludes by assessing the various proposals that have been mooted to resolve Azad Kashmirs international status and the broader Kashmir dispute.",
+    "author":"Christopher Snedden"
+  },
+
+  {
+    "id": "abf3a9dd-5a12-4415-af37-1871d6ff021a",
+    "price": 50,
+    "name": "Book Pack 1",
+    "description": "The Dirty wars in Kashmir, Curfeed night, Kashmir Exposing the Myth behind the narrative ",
+    "author":"Many Authors"
+  },
+  {
+    "id": "acf3a9dd-5a12-4415-af37-1871d6ff021a",
+    "price": 50,
+    "name": "Book Pack 2",
+    "description": "Do You remember Kunan Poshpora, A Desolution called Peace, The dirty war in kashmir",
+    "author":"Many Authors"
+  },
+  {
+    "id": "acf3a9dd-5a12-4415-af37-1871d6ff02aa",
+    "price": 40,
+    "name": "Book Pack 3",
+    "description": "Curfewed Night, kashmir Rage and reason, Untill My freedom has come",
+    "author":"Many Authors"
   }
 ]

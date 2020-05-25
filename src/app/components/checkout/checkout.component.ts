@@ -38,6 +38,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { HttpHeaders } from '@angular/common/http';
 import { from } from "rxjs/observable/from";
+import {Router} from '@angular/router';
 
 interface ICartItemWithProduct extends CartItem {
   product: Product;
@@ -61,7 +62,7 @@ export class CheckoutComponent implements AfterViewChecked  , OnInit , OnDestroy
 
   public constructor(private productsService: ProductsDataService,
     private deliveryOptionService: DeliveryOptionsDataService,
-    private shoppingCartService: ShoppingCartService) {}
+    private shoppingCartService: ShoppingCartService,private router: Router) {}
 
   public emptyCart(): void {
     this.shoppingCartService.empty();
@@ -103,7 +104,7 @@ var t= this.cartItems.map(i=>i.totalCost).reduce((p, n) => p + n, 0);
 }
 
   paypalConfig = {
-    env: 'sandbox',
+    env: 'production',
     client: {
       sandbox: 'AeF0QdYBlpEQP0kqlhy_SkKyhRZPyWWETIxLRO5LMpYjt3HJ36wfhPAcsDBNVqJeCdjk1lAoRljvjuW7',
       production: 'AU0TBS4N6fsEaF7kOjclwGdN9WkE1BwEmUfoKucfWzklr2Lk1Hoqg8Kv9-QYZrJNvuO6Wi_ZgfYkfgtn'
@@ -158,6 +159,8 @@ var t= this.cartItems.map(i=>i.totalCost).reduce((p, n) => p + n, 0);
     onAuthorize: (data, actions) => {
       return actions.payment.execute().then((payment) => {
         //Do something when payment is successful.
+        this.router.navigateByUrl('/confirmed');
+
       })
     }
   };
