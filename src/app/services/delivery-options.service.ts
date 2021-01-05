@@ -17,7 +17,7 @@ export class DeliveryOptionsDataService extends CachcingServiceBase {
     return this.cache<DeliveryOption[]>(() => this.deliveryOptions,
                                         (val: Observable<DeliveryOption[]>) => this.deliveryOptions = val,
                                         () => this.http
-                                                  .get("./assets/delivery-options.json")
+                                                  .get("./assets/delivery-options10.json")
                                                   .map((response) => response.json()
                                                                              .map((item) => {
                                                                                 let model = new DeliveryOption();

@@ -28,7 +28,7 @@ describe("DeliveryOptionsDataService", () => {
        (service: DeliveryOptionsDataService, mockBackend: MockBackend) => {
 
       mockBackend.connections.subscribe((connection: MockConnection) => {
-        expect(connection.request.url).toEqual("./assets/delivery-options.json");
+        expect(connection.request.url).toEqual("./assets/delivery-options10.json");
         connection.mockRespond(new Response(new ResponseOptions({
           body: JSON.stringify(createDeliveryOptions(2))
         })));

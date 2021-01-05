@@ -28,7 +28,7 @@ describe("ProductsService", () => {
        (service: ProductsDataService, mockBackend: MockBackend) => {
 
       mockBackend.connections.subscribe((connection) => {
-        expect(connection.request.url).toEqual("./assets/products.json");
+        expect(connection.request.url).toEqual("./assets/products.1.2.json");
         connection.mockRespond(new Response(new ResponseOptions({
           body: JSON.stringify(createProducts(2))
         })));
