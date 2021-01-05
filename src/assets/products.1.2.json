@@ -1,4 +1,5 @@
 [
+
   {
     "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78aa4f",
     "price":10,
@@ -7,10 +8,17 @@
 
   },
   {
-    "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78aa4f",
+    "id": "1aa113b4-1e4e-4cde-bf9d-8358fc78aa4f",
     "price":50,
-    "name": "2021 Calendar",
+    "name": "Pack of 4 - 2021 Calendar",
     "description": "Pack of 4 - 2021 Calendar by StandWithKashmir"
+
+  },
+  {
+    "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78aa41",
+    "price":"",
+    "name": "Cups of Nun CHai",
+    "description": "Available at cupsofnunchai.com"
 
   },
   {

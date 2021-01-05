@@ -17,12 +17,12 @@
               </h4>
               <p class="js-product-desc">{{product.description}}</p>
               <p>
-                <span class="text--bold">Author:</span>
+                <span *ngIf="product.author" class="text--bold">Author:</span>
                                                 {{product.author}}
                   <br/>
 
               </p>
-              <p>
+              <p *ngIf="product.price">
                 <button type="button"
                         class="button success large js-btn-add"
                         (click)="addProductToCart(product, 1)">Add To Cart</button>
