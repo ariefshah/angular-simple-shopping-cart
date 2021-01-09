@@ -13,16 +13,16 @@
             <div class="medium-9 columns">
               <h4>
                 <span class="text--bold js-product-name">{{product.name}}</span>
-                <small class="product_price js-product-price">{{product.price | currency:'AUD':true}}</small>
+                <small *ngIf="product.price!=0" class="product_price js-product-price">{{product.price | currency:'AUD':true}}</small>
               </h4>
-              <p class="js-product-desc">{{product.description}}</p>
+              <p class="js-product-desc" [innerHTML]="product.description | linkify" >{{product.description}}</p>
               <p>
                 <span *ngIf="product.author" class="text--bold">Author:</span>
                                                 {{product.author}}
                   <br/>
 
               </p>
-              <p *ngIf="product.price">
+              <p *ngIf="product.price!=0">
                 <button type="button"
                         class="button success large js-btn-add"
                         (click)="addProductToCart(product, 1)">Add To Cart</button>

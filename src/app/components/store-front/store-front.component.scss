@@ -20,5 +20,15 @@
   .product_price {
     float: right;
     margin-top: 1rem;
+    color: #b12704;
   }
+
+  .circle {
+    width: 140px;
+    height: 140px;
+    background: red;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+ }
 }

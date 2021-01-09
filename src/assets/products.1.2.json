@@ -2,7 +2,7 @@
 
   {
     "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78aa4f",
-    "price":10,
+    "price":15,
     "name": "2021 Calendar",
     "description": "2021 Calendar by StandWithKashmir"
 
@@ -16,9 +16,9 @@
   },
   {
     "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78aa41",
-    "price":"",
+    "price":0,
     "name": "Cups of Nun CHai",
-    "description": "Available at cupsofnunchai.com"
+    "description": "Available at https://www.cupsofnunchai.com/buy-at-yaarbal-books/"
 
   },
   {
