@@ -5,9 +5,16 @@
     "name": "Standard",
     "description": "Standard shipping through AusPost",
     "price": 10
+  }
+  ,
+  {
+    "id": "caa03bc4-d69a-4788-aff6-4a6fb538bce9",
+    "name": "International",
+    "description": "International Shipping",
+    "price":20
   },
   {
-    "id": "caa93bc4-d69a-4788-aff6-4a6fb538bce8",
+    "id": "bba93bc4-d69a-4788-aff6-4a6fb538bce8",
     "name": "Local Pickup",
     "description": "Local Pickup (in Melbourne, Sydney and Brisbane)",
     "price":0
