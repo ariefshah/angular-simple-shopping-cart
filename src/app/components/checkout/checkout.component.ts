@@ -56,6 +56,8 @@ export class CheckoutComponent implements AfterViewChecked  , OnInit , OnDestroy
   public cart: Observable < ShoppingCart > ;
   public cartItems: ICartItemWithProduct[];
   public itemCount: number;
+  public shoppingTotal: number;
+  public totalCost: number;
 
   private products: Product[];
   private cartSubscription: Subscription;
@@ -69,20 +71,25 @@ export class CheckoutComponent implements AfterViewChecked  , OnInit , OnDestroy
   }
 
   public setDeliveryOption(option: DeliveryOption): void {
+
     this.shoppingCartService.setDeliveryOption(option);
   }
 
 
   public ngOnInit(): void {
+
     this.deliveryOptions = this.deliveryOptionService.all();
     this.cart = this.shoppingCartService.get();
     this.cartSubscription = this.cart.subscribe((cart) => {
       this.itemCount = cart.items.map((x) => x.quantity).reduce((p, n) => p + n, 0);
       this.productsService.all().subscribe((products) => {
         this.products = products;
+        this.shoppingTotal=cart.deliveryTotal;
+        this.totalCost=cart.grossTotal;
         this.cartItems = cart.items
           .map((item) => {
             const product = this.products.find((p) => p.id === item.productId);
+
             return {
               ...item,
               product,
@@ -91,6 +98,7 @@ export class CheckoutComponent implements AfterViewChecked  , OnInit , OnDestroy
           });
       });
     });
+
   }
 
   addScript: boolean = false;
@@ -99,6 +107,8 @@ export class CheckoutComponent implements AfterViewChecked  , OnInit , OnDestroy
   finalAmount: number = 1;
 
 public checkout():void{
+
+  console.log("cart:", this.cart);
 var t= this.cartItems.map(i=>i.totalCost).reduce((p, n) => p + n, 0);
   console.log(t);
 }
@@ -115,11 +125,12 @@ var t= this.cartItems.map(i=>i.totalCost).reduce((p, n) => p + n, 0);
         payment: {
           transactions: [{
             amount: {
-              total:this.cartItems.map(i=>i.totalCost).reduce((p, n) => p + n, 10).toString(),
+              total: this.totalCost,
               currency: 'AUD',
               details: {
                 subtotal: this.cartItems.map(i=>i.totalCost).reduce((p, n) => p + n, 0).toString(),
-                shipping: '10',
+                shipping:  this.shoppingTotal
+                ,
                     }
             },
             description: 'The payment transaction description.',
